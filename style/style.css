@@ -240,13 +240,13 @@ transition: .5s ease;
 
 .projeto-layer h4 {
     font-size: 3rem;
-    color: #353D43;
+    color: #1b1b1b;
 }
 
 .projeto-layer p {
-font-size: 1.6rem;
-margin: .3rem 0 1rem;
-color: #fff;
+font-size: 1.5rem;
+margin: 2.5rem 0 1rem;
+color: #ffffff;
 }
 
 .projeto-layer a {
@@ -261,6 +261,7 @@ color: #fff;
 }
 
 .projeto-layer a i {
+    justify-content: space-around;
     font-size: 2rem;
     color: #fff;
 }
