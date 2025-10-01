@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portifólio</title>
@@ -13,7 +14,6 @@
 
     <a href="#" class="logo">Portifólio</a>
 
-    <i class="fa-solid fa-bars" id="menu-icon"></i>
 
     <nav class="navbar">
         <a href="#home" class="active">Home</a>
@@ -57,13 +57,13 @@
     <div class="sobre-content">
         <h2 class="heading">Sobre <span>Mim</span></h2>
         <h3>FrontEnd</h3>
-        <p>Prazer, me chamo Gustavo, mas se preferir pode me chamar de Gu. Tenho 19 anos e sou um amante da tecnologia. Atualmente estou cursando Desenvolvimento de Software e Multiplataformas. Estou no 3º semestre e em busca de novos desafios, como o primeiro trabalho na área, especialmente na área de Front-End. Já participei de um grupo de estagiários promovido pela Fatec Itaquera, onde desenvolvemos um site para a instituição. Nesse período, trabalhei em grupo usando diversas tecnologias,como, Vscode, GitHub, Figma, PureCss Evernote, o que foi muito enriquecedor. Caso tenha algo a mais para perguntar, não hesite em ir na aba "Contatos" e me mandar uma mensagem. Caso não tenha ficado duvidas, fique à vontade para explorar o resto do meu portfólio. </p>
+        <p>Prazer, me chamo Gustavo, mas se preferir pode me chamar de Gu. Tenho 19 anos e sou um amante da tecnologia. Atualmente estou cursando Desenvolvimento de Software e Multiplataformas. Estou no 5º semestre e em busca de novos desafios, como o primeiro trabalho na área, especialmente na área de Front-End. Já participei de um grupo de estagiários promovido pela Fatec Itaquera, onde desenvolvemos um site para a instituição. Nesse período, trabalhei em grupo usando diversas tecnologias,como, Vscode, GitHub, Figma, PureCss Evernote, o que foi muito enriquecedor. Caso tenha algo a mais para perguntar, não hesite em ir na aba "Contatos" e me mandar uma mensagem. Caso não tenha ficado duvidas, fique à vontade para explorar o resto do meu portfólio. </p>
     </div>
  </section>
 
  <!--Projetos-->
  <section class="projeto" id="projeto">
-    <h2 class="heading">Meus melhores <span>projetos</span</h2>
+    <h2 class="heading">Projetos do semestre</h2>
       <br><br>
         <div class="projeto-container">
             <div class="projeto-box">
@@ -75,6 +75,7 @@
                 </div>
             </div>
 
+            <!--Projeto 2-->
                 <div class="projeto-box">
                     <img src="imgs/1 (1).jpg" alt="">
                     <div class="projeto-layer">
@@ -83,11 +84,43 @@
                         <a href="https://pokemon-api-three-tau.vercel.app/" target="_blank" title="Visualizar o projeto"><i class="fa-regular fa-share-from-square"></i></a>
                     </div>
                 </div>
-    
+
+    <!--Projeto 3-->
                     <div class="projeto-box">
                         <img src="imgs/1 (1).jpg" alt="">
                         <div class="projeto-layer">
-                            <h4>Teste</h4>
+                            <h4>Teste 3</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci illo odit .</p>
+                            <a href=""><i class="fa-regular fa-share-from-square"></i></a>
+                        </div>
+                    </div>
+
+<!--Projeto 4-->
+                       <div class="projeto-box">
+                        <img src="imgs/1 (1).jpg" alt="">
+                        <div class="projeto-layer">
+                            <h4>Teste 4</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci illo odit .</p>
+                            <a href=""><i class="fa-regular fa-share-from-square"></i></a>
+                        </div>
+                    </div>
+
+<!--Projeto 5-->
+  <div class="projeto-box">
+                        <img src="imgs/1 (1).jpg" alt="">
+                        <div class="projeto-layer">
+                            <h4>Teste 5</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci illo odit .</p>
+                            <a href=""><i class="fa-regular fa-share-from-square"></i></a>
+                        </div>
+                    </div>
+
+
+<!--Projeto 6-->
+                      <div class="projeto-box">
+                        <img src="imgs/1 (1).jpg" alt="">
+                        <div class="projeto-layer">
+                            <h4>Teste 6</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci illo odit .</p>
                             <a href=""><i class="fa-regular fa-share-from-square"></i></a>
                         </div>
@@ -104,24 +137,31 @@
   
 
  <!--Contato-->
+<section class="contato" id="contato">
+  <h2 class="heading">Entre em <span>Contato</span></h2>
+  <form action="https://formsubmit.co/gustavosimoeslisboa@gmail.com" method="POST">
 
- <section class="contato" id="contato">
-<h2 class="heading">Entre em <span>Contato</span></h2>
-<form action="https://formsubmit.co/gustavosimoeslisboa@gmail.com" method="POST">
-    <input type="hidden" name="_next" value="http://127.0.0.1:5501/obrigado.html">
+    <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+
+
+    <input type="hidden" name="_captcha" value="false">
+
     <div class="input-box">
-        <input type="text" placeholder="Nome completo" required>
-        <input type="email" placeholder="Digite seu email" required>
+      <input type="text" name="nome" placeholder="Nome completo" required>
+      <input type="email" name="email" placeholder="Digite seu email" required>
     </div>
+
     <div class="input-box">
-        <input type="text" placeholder="Numero de telefone" required>
-        <input type="text" placeholder="Assunto do email" required>
+      <input type="text" name="telefone" placeholder="Número de telefone" required>
+      <input type="text" name="assunto" placeholder="Assunto do email" required>
     </div>
-    <textarea name="" id="" cols="30" rows="15" placeholder="Sua mensagem:"></textarea>
+
+    <textarea name="mensagem" placeholder="Sua mensagem:" rows="15" required></textarea>
+
     <input type="submit" value="Enviar mensagem" class="btn">
-</form>
+  </form>
+</section>
 
- </section>
 
   <!--Footer-->
 
