@@ -187,6 +187,30 @@ span{
 
 
 
+.idiomas-content ul {
+  list-style: none;
+  display: inline-block;
+  text-align: left;
+  background-color: #fff;
+  color: #637D6A;
+  padding: 2rem 4rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  font-size: 1.8rem;
+}
+
+.idiomas-content li {
+  margin: 1.2rem 0;
+  font-weight: 600;
+}
+
+.idiomas-content li strong {
+  color: #66BD7E;
+}
+
+
+
+
 /*projetos*/
 .projeto {
     margin-bottom: 4rem;
@@ -203,7 +227,7 @@ span{
 .projeto-container .projeto-box {
     position: relative;
     border-radius: 3rem;
-    box-shadow: 0 0 1rem #787B17;
+    box-shadow: 0 0 1rem #637D6A;
     overflow: hidden;
     display: flex;
 }
